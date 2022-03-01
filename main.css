@@ -5,12 +5,15 @@
 body{
     height: 100vh;
     display:flex;
+    background-color: aqua;
 }
 
 .main{
     margin :auto;
+   
     display:flex;
     flex-direction: column;
+   
 }
 
 .container{
@@ -64,4 +67,7 @@ body{
     background-image: linear-gradient(to bottom right ,pink ,blue  );
 }
 
-
+.text{
+    text-align: center;
+    margin-bottom: 60px;
+}
