@@ -28,7 +28,7 @@ text.innerHTML= "CHÚC MƯNG A";
 rd.onclick= function(){
     Random();
     dem1++;
-    if(dem1==3){
+    if(dem1>=3){
         console.log(dem1)
         alert("ĐỪNG CÓ MÀ THAM LAM");
     }
