@@ -5,25 +5,30 @@ function Random(){
     switch(dem){
    
         case 1:
-            text.innerHTML= "BẠN CHÚNG MÓN QUÀ A ";
+            text.innerHTML= "TÙY EM CHỌN";
             console.log(dem);
             break;
         case 2:
-            text.innerHTML= "BẠN CHÚNG MÓN QUÀ B";
+            text.innerHTML= "TÙY EM CHỌN";
             break;
         case 3:
-            text.innerHTML= "BẠN CHÚNG MÓN QUÀ C";
+            text.innerHTML= "CHÚC MAI MẮN LẦN SAU";
             break;
     }
     
 }
 var btn1 = document.querySelector(".btn1")
+var btn2 = document.querySelector(".btn2")
 var text = document.querySelector(".text")
 var rd = document.querySelector(".random")
 
 btn1.onclick= function(){
-text.innerHTML= "CHÚC MƯNG A";
+text.innerHTML= "CHÚC MƯNG SINH NHẬT EM";
 }
+
+btn2.onclick= function(){
+    text.innerHTML= "8/3 VUI VẺ HẠNH PHÚC EM NHÉ";
+    }
 
 rd.onclick= function(){
     Random();
